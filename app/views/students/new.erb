@@ -3,9 +3,11 @@ Student Form
 
   <label for="first_name">First Name:</label>
   <%= text_field_tag :'first_name' %><br>
-
-  <label for="last_name">Last Name:</label>
+<%= label_tag 'last_name', 'Last Name:' %>
+  <!-- <label for="last_name">Last Name:</label> -->
   <%= text_field_tag :'last_name' %><br>
 
   <%= submit_tag "Submit Student" %>
 <% end %>
+
+label
